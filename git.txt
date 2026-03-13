@@ -1,0 +1,36 @@
+PS C:\Users\ASUS\Desktop\Git_4.30> git init
+Initialized empty Git repository in C:/Users/ASUS/Desktop/Git_4.30/.git/
+PS C:\Users\ASUS\Desktop\Git_4.30> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   git.txt
+        new file:   index.html
+
+PS C:\Users\ASUS\Desktop\Git_4.30> git commit -m "creat a file"
+[master (root-commit) fc2c21c] creat a file
+ 2 files changed, 1 insertion(+)
+ create mode 100644 git.txt
+ create mode 100644 index.html
+PS C:\Users\ASUS\Desktop\Git_4.30> git remote add origin https://github.com/vermavivek2004vv-oss/git_4-30.git 
+PS C:\Users\ASUS\Desktop\Git_4.30> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/vermavivek2004vv-oss/git_4-30.git'
+PS C:\Users\ASUS\Desktop\Git_4.30>
+
+
+                                   git branch
+* master
+PS C:\Users\ASUS\Desktop\Git_4.30> git push -u origin master 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 279 bytes | 139.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/vermavivek2004vv-oss/git_4-30.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
